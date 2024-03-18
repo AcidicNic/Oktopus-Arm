@@ -14,9 +14,11 @@
     <string name="client">Cliente</string>
     <string name="remaining">Faltan</string>
     <string name="of">de</string>
-    <string name="tricky">Engorrosos</string>
+    <string name="tricky_singular">Engorroso</string>
     <string name="picked">Pickeados</string>
-    <string name="paused">Pausados</string>
+    <string name="billing_date">Fecha de Facturación</string>
+    <string name="paused_singular">Pausado</string>
+    <string name="paused_plural">Pausados</string>
     <string name="notes">Notas</string>
     <string name="take_order">Tomar Pedido</string>
     <string name="save_and_return">Guardar y Volver</string>
@@ -28,8 +30,12 @@
     <string name="closed_orders">Pedidos Cerrados</string>
     <string name="mute">Siliencio</string>
     <string name="cancel">Cancelar</string>
-    <string name="exit">Salir</string>
+    <string name="exit">" Salir"</string>
     <string name="log_out">Cerrar Sesión</string>
     <string name="refresh">Actualizar</string>
     <string name="no_orders_found">No se encontraron pedidos...</string>
+    <string name="picked_singular">Pickeado</string>
+    <string name="picked_plural">Pickeados</string>
+    <string name="tricky_plural">Engorrosos</string>
+    <string name="total_orders">Total de Pedidos</string>
 </resources>

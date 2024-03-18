@@ -51,4 +51,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("org.ocpsoft.prettytime:prettytime:5.0.7.Final")
 }
