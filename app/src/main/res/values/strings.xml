@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name" translatable="false">Oktopus Picking</string>
+
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="section">Section</string>
+    <string name="login">Login</string>
+    <string name="floor">Floor</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="logo" translatable="false">Logo</string>
+    <string name="testing" translatable="false">Testing</string>
+    <string name="login_activity" translatable="false">LoginActivity</string>
+    <string name="orders_activity" translatable="false">OrdersActivity</string>
+    <string name="orders">Orders</string>
+    <string name="order">Order</string>
+    <string name="order_num">Order #</string>
+    <string name="date">Date</string>
+    <string name="vendor">Vendor</string>
+    <string name="client">Client</string>
+    <string name="order_type">Order Type</string>
+    <string name="remaining">Remaining</string>
+    <string name="of">of</string>
+    <string name="tricky">Tricky</string>
+    <string name="picked">Picked</string>
+    <string name="paused">Paused</string>
+    <string name="notes">Notes</string>
+    <string name="take_order">Take Order</string>
+    <string name="url" translatable="false">URL</string>
+    <string name="save_and_return">Save and Return</string>
+    <string name="edit_url_desc">Leave this empty to use default production URL</string>
+    <string name="edit_url_label" translatable="false">Base URL for API</string>
+    <string name="back">Back</string>
+    <string name="test_banner_text" translatable="false">*TESTING* %1s</string>
+    <string name="required">Required</string>
+    <string name="login_failed_msg">Login failed.</string>
+    <string name="total" translatable="false">Total</string>
+    <string name="priority">Priority</string>
+    <string name="closed_orders">Closed Orders</string>
+    <string name="mute">Mute</string>
+    <string name="test_banner_default" translatable="false">*TESTING* http://localhost:666/smpmT/rest/</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="log_out">Log Out</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_orders_found">No orders found...</string>
+</resources>

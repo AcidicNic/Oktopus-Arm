@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxWidth="300dp"
+    android:paddingTop="5dp"
+    android:paddingStart="60dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/orderNumLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/order_num"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/orderNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/text30"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/orderDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin5"
+                android:text="@string/date"
+                android:textSize="@dimen/text15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/orderBillingDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin5"
+                android:text="@string/date"
+                android:textSize="@dimen/text15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vendorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin5"
+                android:text="@string/vendor"
+                android:textSize="@dimen/text15"  />
+
+            <TextView
+                android:id="@+id/customerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin5"
+                android:text="@string/client"
+                android:textSize="@dimen/text15"  />
+
+            <TextView
+                android:id="@+id/orderType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin5"
+                android:text="@string/order_type"
+                android:textSize="@dimen/text15"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/cantidadTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+
+                android:text="@string/remaining"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/orderQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="0"
+                android:textSize="@dimen/text30"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/orderTotalItems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="@dimen/margin5"
+                android:text="@string/of"
+                android:textSize="@dimen/text15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/itemsDiffToPick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="@dimen/margin5"
+                android:background="#FFD600"
+                android:padding="2dp"
+                android:gravity="end"
+                android:text="@string/tricky"
+                android:textSize="@dimen/text15" />
+
+            <TextView
+                android:id="@+id/itemsPicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="@dimen/margin5"
+                android:background="#64DD17"
+                android:padding="2dp"
+                android:text="@string/picked"
+                android:textSize="@dimen/text15" />
+
+            <TextView
+                android:id="@+id/itemsPaused"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="@dimen/margin5"
+                android:background="#FFAB00"
+                android:padding="2dp"
+                android:text="@string/paused"
+                android:textSize="@dimen/text15" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/orderNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/notes"
+        android:layout_weight="2" />
+
+    <Button
+        android:id="@+id/takeThisOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetBottom="0dp"
+        android:insetTop="0dp"
+        app:cornerRadius="10dp"
+        android:text="@string/take_order"
+        android:focusable="false" />
+
+</LinearLayout>

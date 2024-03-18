@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+
+    <dimen name="default_input_height">54dp</dimen>
+
+    <dimen name="default_form_margin_x">45dp</dimen>
+
+    <dimen name="logo_height">90dp</dimen>
+
+    <dimen name="text10">10sp</dimen>
+    <dimen name="text15">15sp</dimen>
+    <dimen name="text16">16sp</dimen>
+    <dimen name="text30">30sp</dimen>
+
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin15">15dp</dimen>
+    <dimen name="margin80">80dp</dimen>
+
+</resources>

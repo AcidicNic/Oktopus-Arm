@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="section">Piso</string>
+    <string name="login">Entrar</string>
+    <string name="floor">Piso</string>
+    <string name="orders">Pedidos</string>
+    <string name="order">Pedido</string>
+    <string name="order_num">Pedido #</string>
+    <string name="date">Fecha</string>
+    <string name="vendor">Vendedor</string>
+    <string name="order_type">Envio Por</string>
+    <string name="client">Cliente</string>
+    <string name="remaining">Faltan</string>
+    <string name="of">de</string>
+    <string name="tricky">Engorrosos</string>
+    <string name="picked">Pickeados</string>
+    <string name="paused">Pausados</string>
+    <string name="notes">Notas</string>
+    <string name="take_order">Tomar Pedido</string>
+    <string name="save_and_return">Guardar y Volver</string>
+    <string name="back">Volver</string>
+    <string name="edit_url_desc">Deje esto vacío para usar la URL de producción</string>
+    <string name="required">Requerido</string>
+    <string name="login_failed_msg">Error al iniciar sesión.</string>
+    <string name="priority">Prioridad</string>
+    <string name="closed_orders">Pedidos Cerrados</string>
+    <string name="mute">Siliencio</string>
+    <string name="cancel">Cancelar</string>
+    <string name="exit">Salir</string>
+    <string name="log_out">Cerrar Sesión</string>
+    <string name="refresh">Actualizar</string>
+    <string name="no_orders_found">No se encontraron pedidos...</string>
+</resources>

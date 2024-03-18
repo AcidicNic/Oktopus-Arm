@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true" >
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/cancel"
+        android:insetBottom="0dp"
+        android:insetTop="0dp"
+        app:cornerRadius="10dp"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconGravity="textStart" />
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logo_height"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/default_form_margin_x"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/login_logo" />
+
+    <TextView
+        android:id="@+id/edit_url_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/default_form_margin_x"
+        android:text="@string/edit_url_label" />
+
+    <EditText
+        android:id="@+id/url_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_input_height"
+        android:layout_marginHorizontal="@dimen/default_form_margin_x"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:inputType="textUri"
+        android:hint="@string/url" >
+    </EditText>
+
+
+    <Button
+        android:id="@+id/url_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_input_height"
+        android:layout_marginHorizontal="@dimen/default_form_margin_x"
+        android:insetBottom="0dp"
+        android:insetTop="0dp"
+        app:cornerRadius="10dp"
+        android:text="@string/save_and_return" />
+
+    <TextView
+        android:id="@+id/edit_url_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/muted_text_color"
+        android:layout_marginVertical="20dp"
+        android:layout_gravity="center"
+        android:text="@string/edit_url_desc" />
+
+</LinearLayout>
