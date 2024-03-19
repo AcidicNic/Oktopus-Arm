@@ -6,10 +6,10 @@ object Config {
 //    var URL: String = "http://10.0.2.2:5000/"
 
     val API_ENDPOINTS = mapOf(
-        "LOGIN" to "/loginav1",
-        "GET_HEADERS" to "/getheadersav1",
-        "GET_LINES" to "/getlinesav1",
-        "SET_ITEM_STATUS" to "/setitemstatusav1",
+        "LOGIN" to "loginav1/",
+        "GET_HEADERS" to "getheadersav1/",
+        "GET_LINES" to "getlinesav1/",
+        "SET_ITEM_STATUS" to "setitemstatusav1/",
     )
 
     const val COMPANY_ID: String = "1"

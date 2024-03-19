@@ -31,7 +31,7 @@ object API {
                 return@withContext null
             }
 
-            val url = URI(Config.URL).resolve(Config.API_ENDPOINTS[endpoint]).toString()
+            val url = Config.URL + Config.API_ENDPOINTS[endpoint]
             Log.d(logTag, "URI: $url")
 
             val client = OkHttpClient()
