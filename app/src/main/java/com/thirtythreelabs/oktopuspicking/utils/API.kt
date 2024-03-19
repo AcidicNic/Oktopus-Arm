@@ -9,6 +9,7 @@ import okhttp3.Request
 import okhttp3.RequestBody.Companion.toRequestBody
 import org.json.JSONObject
 import java.net.URI
+import java.util.concurrent.TimeUnit
 
 object API {
     /**
@@ -34,7 +35,11 @@ object API {
             val url = Config.URL + Config.API_ENDPOINTS[endpoint]
             Log.d(logTag, "URI: $url")
 
-            val client = OkHttpClient()
+            val client = OkHttpClient().newBuilder()
+                .readTimeout(60, TimeUnit.SECONDS)
+                .connectTimeout(60, TimeUnit.SECONDS)
+                .build()
+
             val reqJson = JSONObject()
 
             for ((k, v) in params) {
