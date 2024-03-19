@@ -128,7 +128,7 @@ class LoginActivity : AppCompatActivity() {
     private suspend fun handleLogin(username: String, password: String): User? {
         val jsonRes = API.handlePostRequest(
             mapOf(
-                "CompanyId" to Config.COMPANY_ID,
+                "CompanyId" to Config.COMPANY_ID.toInt(),
                 "ArmLogin" to username,
                 "ArmPwd" to password
             ),
