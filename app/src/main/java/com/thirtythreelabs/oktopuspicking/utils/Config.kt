@@ -2,8 +2,8 @@ package com.thirtythreelabs.oktopuspicking.utils
 
 object Config {
     const val DEFAULT_URL: String = "http://192.168.1.92/smpm/rest/"
-//    var URL: String = "http://192.168.1.92/smpmt/rest/"
-    var URL: String = "http://10.0.2.2:5000/"
+    var URL: String = "http://192.168.1.92/smpmt/rest/"
+//    var URL: String = "http://10.0.2.2:5000/"
 
     val API_ENDPOINTS = mapOf(
         "LOGIN" to "/loginav1",

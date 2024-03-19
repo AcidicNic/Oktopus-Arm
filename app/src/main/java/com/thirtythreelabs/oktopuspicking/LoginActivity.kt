@@ -138,13 +138,7 @@ class LoginActivity : AppCompatActivity() {
             return null
         }
         try {
-            val user = User(
-                username,
-                jsonRes.getInt("WareHouseId"),
-                jsonRes.getInt("ArmId"),
-                jsonRes.getString("ArmNomCmpl"),
-                jsonRes.getString("ArmHabPara")
-            )
+            val user = User(jsonRes, username)
             return user
         } catch (e: Exception) {
             Log.e(logTag, "Error parsing JSON: $e")
