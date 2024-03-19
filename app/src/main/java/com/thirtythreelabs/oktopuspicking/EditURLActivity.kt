@@ -26,20 +26,12 @@ class EditURLActivity : AppCompatActivity() {
 
         submitBtn.setOnClickListener {
             val newURL = urlInput.text.toString()
-            updateURL(newURL)
+            Config.setURL(newURL)
             finish()
         }
 
         backBtn.setOnClickListener {
             finish()
-        }
-    }
-
-    private fun updateURL(newURL: String) {
-        if (newURL == "") {
-            Config.URL = Config.DEFAULT_URL
-        } else {
-            Config.URL = newURL
         }
     }
 }
