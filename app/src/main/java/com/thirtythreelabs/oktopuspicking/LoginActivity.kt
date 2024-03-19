@@ -129,7 +129,7 @@ class LoginActivity : AppCompatActivity() {
         val jsonRes = API.handlePostRequest(
             mapOf(
                 "CompanyId" to Config.COMPANY_ID.toInt(),
-                "ArmLogin" to username,
+                "ArmLogin" to username.uppercase(),
                 "ArmPwd" to password
             ),
             "LOGIN")
