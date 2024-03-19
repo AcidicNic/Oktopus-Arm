@@ -26,7 +26,7 @@ class EditURLActivity : AppCompatActivity() {
 
         submitBtn.setOnClickListener {
             val newURL = urlInput.text.toString()
-            Config.setURL(newURL)
+            Config.updateURL(newURL)
             finish()
         }
 

@@ -17,7 +17,7 @@ object Config {
     const val HEADER_DATE: String = "20240101"
     const val HEADER_STATUS_ID: String = "8"
 
-    fun setURL(url: String) {
+    fun updateURL(url: String) {
         if (url.isEmpty()) {
             URL = DEFAULT_URL
             return
